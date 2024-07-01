@@ -59,34 +59,45 @@ setCount(ans)
   
   return (
     <>
-    <h1>{count}</h1>
-    <button onClick={one}> 1</button>
-    <button onClick={two}>2</button>
-    <button onClick={three}>3</button>
-    <button onClick={add}>+</button>
-    <br/>
-    <button onClick={four}>4</button>
-    <button onClick={five}>5</button>
-    <button onClick={six}>6</button>
-    <button onClick={sub}>-</button>
-    <br/>
+    <div className="disp">
+    <p>{count}</p>
+    </div>
+    <div className="buttons">
+    <div className="onetothree">
     <button onClick={seven}>7</button>
     <button onClick={eight}>8</button>
     <button onClick={nine}>9</button>
-    <button onClick={div}>/</button>
-    <br/>
+    
+    <button className="yellow" onClick={add}>+</button>
+    </div>
+    
+   <div className="fourtosix">
+   <button onClick={four}>4</button>
+    <button onClick={five}>5</button>
+    <button onClick={six}>6</button>
+    <button className="yellow" onClick={sub}>-</button>
+   </div>
+    
+    <div className="seventonine">
+    <button onClick={one}> 1</button>
+    <button onClick={two}>2</button>
+    <button onClick={three}>3</button>
+    <button className="yellow" onClick={div}>/</button>
+    </div>
     
     
     
+    <div className="zero">
     <button onClick={clear}>cl</button>
     <button onClick={zero}>0</button>
     <button onClick={equal}>=</button>
-
-    <button onClick={mul}>x</button>
-    <br/>
-    
+    <button className="yellow" onClick={mul}>x</button>
+    </div>
    
+    </div>
     
+    
+  
     
     </>
   )
