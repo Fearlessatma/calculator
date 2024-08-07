@@ -56,7 +56,7 @@ p {
     text-align: end;
     margin-top: 230px;
       width: 87%; /* Make input width responsive */
-      height: 30px; /* Adjust height for mobile */
+      height: 10px; /* Adjust height for mobile */
       font-weight: bolder;
       color: white;
   }
