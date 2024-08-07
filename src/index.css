@@ -54,9 +54,9 @@ p {
   p {
     font-size: 50px;
     text-align: end;
-    margin-top: 230px;
+    margin-top: 253px;
       width: 87%; /* Make input width responsive */
-       /* Adjust height for mobile */
+      height: 45px; /* Adjust height for mobile */
       font-weight: bolder;
       color: white;
   }
